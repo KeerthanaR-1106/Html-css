@@ -1,0 +1,181 @@
+<html>
+<head>
+  <title>My Portfolio</title>
+
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #CCCCCC;
+      color: #1A1A1A;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #3A3A3A;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #E8C200;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      background-color: #E6E6E6;
+      padding: 15px;
+      margin-top: 20px;
+      border-left: 5px solid #3A3A3A;
+      border-radius: 6px;
+    }
+
+    h2 {
+      color: #3A3A3A;
+      margin-top: 0;
+    }
+
+    input, textarea {
+      width: 100%;
+      background-color: white;
+      color: #1A1A1A;
+      border: 1px solid #777;
+      padding: 6px;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #3A3A3A;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: 0.2s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #4b4b4b;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: inline-block;
+        margin: 6px;
+      }
+
+      section {
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Keerthana R</h1>
+  <p>Second-Year IT Student</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#edu">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#certification">Certifications</a>
+    <a href="#lang">Languages</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a second-year B.Tech student building strong fundamentals in
+    programming, problem-solving and software development.
+  </p>
+</section>
+
+<section id="edu">
+  <h2>Educational Qualification</h2>
+  <ul>
+    <li>B.Tech IT — Bannari Amman Institute of Technology</li>
+    <li>HSC — Advaith International Academy</li>
+    <li>SSLC — Maharishi Vidya Mandir</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>HTML & CSS</li>
+    <li>Java (NPTEL)</li>
+  </ul>
+</section>
+
+<section id="certification">
+  <h2>Certifications</h2>
+  <ul>
+    <li>NPTEL Programming in Java</li>
+    <li>Oracle Cloud Infrastructure Foundations</li>
+    <li>IBM Z Day Digital Credential</li>
+  </ul>
+</section>
+
+<section id="lang">
+  <h2>Languages Known</h2>
+  <ul>
+    <li>English</li>
+    <li>Tamil</li>
+    <li>Hindi</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <form>
+    <label>Name:</label>
+    <input type="text">
+
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email">
+
+    <br><br>
+
+    <label>Message:</label>
+    <textarea rows="4"></textarea>
+
+    <input type="submit" value="Send">
+  </form>
+</section>
+
+</main>
+
+</body>
+</html>
